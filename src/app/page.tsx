@@ -1,41 +1,34 @@
 "use client";
 
-import { EntryPoint, EntryPointType, FlagshipContainer } from "@thinkflagship/web-shorts";
-import { useState } from "react";
+import { EntryPoint, EntryPointType } from "@thinkflagship/web-shorts";
+import Image from "next/image";
 
 export default function Home() {
-  const [entryPointId, setEntryPointId] = useState("#141526");
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.target as HTMLFormElement);
-    const id = formData.get("id") as string;
-    setEntryPointId(id);
-
-    console.log(id);
-  };
 
   return (
-    <div className="container mx-auto py-10">
-      <div>
-        <FlagshipContainer>
-          <form onSubmit={handleSubmit} className="flex gap-2 mb-10">
-            <input
-              type="text"
-              name="id"
-              value={entryPointId}
-              onChange={(e) => setEntryPointId(e.target.value)}
-              placeholder="Enter ID"
-              className="border border-gray-300 rounded-md p-2"
-            />
-            <button type="submit" className="bg-blue-500 text-white rounded-md p-2">Submit</button>
-          </form>
-          <EntryPoint
-            id={entryPointId}
-            skeletonType={EntryPointType.CIRCLE}
-          />
-        </FlagshipContainer>
+    <div className="max-w-6xl mx-auto">
+
+      <div className="max-w-4xl mx-auto py-10">
+        <Image src="/assets/icons.png" width={500} height={100} alt="Flagship Logo" className="w-full h-[80px] object-cover object-top" />
       </div>
+
+      <div className="relative w-full aspect-5/2 overflow-hidden rounded-2xl">
+        <Image src="/assets/background.png" fill alt="BG" className="object-cover object-top rounded-2xl" />
+      </div>
+
+      <section className="py-20">
+        <EntryPoint
+          id={"#062802"}
+          skeletonType={EntryPointType.CIRCLE}
+        />
+      </section>
+
+
+      <div className="relative w-full aspect-5/2 overflow-hidden rounded-2xl">
+        <Image src="/assets/section.png" fill alt="BG" className="object-cover object-top rounded-2xl" />
+      </div>
+
+
     </div>
   );
 }

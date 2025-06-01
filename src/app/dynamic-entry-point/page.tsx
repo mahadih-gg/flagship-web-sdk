@@ -1,6 +1,6 @@
 "use client";
 
-import { EntryPoint, EntryPointType } from "flagship-web-sdk";
+import { EntryPoint, EntryPointSize, EntryPointType } from "@thinkflagship/web-shorts";
 import { useState } from "react";
 
 const DynamicEntryPoint = () => {
@@ -22,7 +22,8 @@ const DynamicEntryPoint = () => {
           </form>
           <EntryPoint
             id={entryPointId}
-            skeletonType={EntryPointType.CIRCLE}
+            skeletonType={EntryPointType.RECTANGLE}
+            size={EntryPointSize.BOLD}
           />
         </div>
       </div>

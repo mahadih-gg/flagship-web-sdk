@@ -1,6 +1,6 @@
 "use client";
 
-import { EntryPoint, EntryPointType } from "@thinkflagship/web-shorts";
+import { EntryPoint, EntryPointSize, EntryPointType } from "@thinkflagship/web-shorts";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,8 +18,9 @@ export default function Home() {
 
       <section className="py-20">
         <EntryPoint
-          id={"#062802"}
-          skeletonType={EntryPointType.CIRCLE}
+          id={"#187731"}
+          skeletonType={EntryPointType.RECTANGLE}
+          skeletonSize={EntryPointSize.BOLD}
         />
       </section>
 

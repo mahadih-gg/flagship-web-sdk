@@ -1,6 +1,6 @@
 "use client";
 
-import { EntryPoint, EntryPointType, FlagshipContainer } from "flagship-web-sdk";
+import { EntryPoint, EntryPointType, FlagshipContainer } from "@thinkflagship/web-shorts";
 import { useState } from "react";
 
 export default function Home() {

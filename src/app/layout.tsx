@@ -1,4 +1,4 @@
-import 'flagship-web-sdk/dist/styles.css';
+import "@thinkflagship/web-shorts/dist/styles.css";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";

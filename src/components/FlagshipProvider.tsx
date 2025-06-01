@@ -1,6 +1,6 @@
 "use client";
 
-import { FlagshipContainer } from "flagship-web-sdk";
+import { FlagshipContainer } from "@thinkflagship/web-shorts";
 import { ReactNode } from "react";
 
 interface FlagshipProviderProps {

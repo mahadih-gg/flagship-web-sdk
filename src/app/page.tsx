@@ -1,6 +1,6 @@
 "use client";
 
-import { EntryPoint, EntryPointType } from "flagship-web-sdk";
+import { EntryPoint, EntryPointType } from "@thinkflagship/web-shorts";
 import Image from "next/image";
 
 export default function Home() {

@@ -19,7 +19,7 @@ const DynamicEntryPoint = () => {
   return (
     <div>
       <div className="max-w-6xl mx-auto py-10">
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <form onSubmit={handleSubmit} className="flex gap-2 mb-10">
             <div>
               <label htmlFor="size" className="block text-sm font-medium mb-1">Skeleton Size:</label>

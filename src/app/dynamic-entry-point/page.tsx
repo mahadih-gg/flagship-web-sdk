@@ -22,7 +22,7 @@ const DynamicEntryPoint = () => {
         <div className="flex flex-wrap gap-4">
           <form onSubmit={handleSubmit} className="flex gap-2 mb-10">
             <div>
-              <label htmlFor="size" className="block text-sm font-medium mb-1">Skeleton Size:</label>
+              <label htmlFor="size" className="block text-sm font-medium mb-1">Entry Point ID:</label>
 
               <input
                 type="text"

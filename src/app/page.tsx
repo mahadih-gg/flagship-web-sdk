@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
 
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto px-4">
 
       <div className="max-w-4xl mx-auto py-10">
         <Image src="/assets/icons.png" width={500} height={100} alt="Flagship Logo" className="w-full h-[80px] object-cover object-top" />
@@ -18,9 +18,9 @@ export default function Home() {
 
       <section className="py-20">
         <EntryPoint
-          id={"#187731"}
+          id={"#914686"}
           skeletonType={EntryPointType.RECTANGLE}
-          skeletonSize={EntryPointSize.BOLD}
+          skeletonSize={EntryPointSize.STANDARD}
         />
       </section>
 

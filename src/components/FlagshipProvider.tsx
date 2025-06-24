@@ -8,5 +8,11 @@ interface FlagshipProviderProps {
 }
 
 export default function FlagshipProvider({ children }: FlagshipProviderProps) {
-  return <FlagshipContainer>{children}</FlagshipContainer>;
+
+  const licenseKey = process.env.NEXT_PUBLIC_FLAGSHIP_WEB_SDK_LICENSE_KEY;
+  return (
+    <FlagshipContainer licenseKey={licenseKey}>
+      {children}
+    </FlagshipContainer>
+  );
 } 

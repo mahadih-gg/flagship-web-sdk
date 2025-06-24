@@ -4,9 +4,9 @@ import { EntryPoint, EntryPointSize, EntryPointType } from "@thinkflagship/web-s
 import { useState } from "react";
 
 const DynamicEntryPoint = () => {
-  const [entryPointId, setEntryPointId] = useState(localStorage.getItem('entryPointId') || "#141526");
-  const [selectedSize, setSelectedSize] = useState<EntryPointSize>(localStorage.getItem('selectedSize') as EntryPointSize || EntryPointSize.BOLD);
-  const [selectedType, setSelectedType] = useState<EntryPointType>(localStorage.getItem('selectedType') as EntryPointType || EntryPointType.RECTANGLE);
+  const [entryPointId, setEntryPointId] = useState(localStorage.getItem('entryPointId') || "#120729");
+  const [selectedSize, setSelectedSize] = useState<EntryPointSize>(localStorage.getItem('selectedSize') as EntryPointSize || EntryPointSize.STANDARD);
+  const [selectedType, setSelectedType] = useState<EntryPointType>(localStorage.getItem('selectedType') as EntryPointType || EntryPointType.CIRCLE);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

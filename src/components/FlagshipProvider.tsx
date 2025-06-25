@@ -11,7 +11,7 @@ export default function FlagshipProvider({ children }: FlagshipProviderProps) {
 
   const licenseKey = process.env.NEXT_PUBLIC_FLAGSHIP_WEB_SDK_LICENSE_KEY;
   return (
-    <FlagshipContainer licenseKey={licenseKey}>
+    <FlagshipContainer licenseKey={licenseKey} platformId="https://flagship-web-sdk.vercel.app">
       {children}
     </FlagshipContainer>
   );

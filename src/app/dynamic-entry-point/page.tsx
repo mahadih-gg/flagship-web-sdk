@@ -16,6 +16,8 @@ const DynamicEntryPoint = () => {
     localStorage.setItem('entryPointId', id);
   };
 
+  console.log(entryPointId)
+
   return (
     <div>
       <div className="max-w-6xl mx-auto py-10">

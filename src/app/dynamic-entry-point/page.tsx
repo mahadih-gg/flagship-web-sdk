@@ -16,6 +16,8 @@ const DynamicEntryPoint = () => {
     localStorage.setItem('entryPointId', id);
   };
 
+
+
   console.log(entryPointId)
 
   return (

@@ -14,7 +14,7 @@ const EntryPointsPages = () => {
         <div>
           <h1 className="!text-3xl font-semibold pb-4">Circle Compact</h1>
           <EntryPoint
-            id={"#853808"}
+            id={"#428521"}
             skeletonType={EntryPointType.CIRCLE}
             skeletonSize={EntryPointSize.COMPACT}
           />

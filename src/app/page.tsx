@@ -18,9 +18,9 @@ export default function Home() {
 
       <section className="py-20">
         <EntryPoint
-          id={"#428521"}
+          id={"#216840"}
           skeletonType={EntryPointType.RECTANGLE}
-          skeletonSize={EntryPointSize.STANDARD}
+          skeletonSize={EntryPointSize.BOLD}
         />
       </section>
 

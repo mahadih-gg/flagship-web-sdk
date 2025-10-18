@@ -84,7 +84,7 @@ const EntryPointsPages = () => {
           <EntryPoint
             id={"#971963"}
             skeletonType={EntryPointType.BLOCK}
-            skeletonSize={EntryPointSize.OF_4}
+            skeletonSize={EntryPointSize.BLOCK_OF_4}
           />
         </div>
       </section>

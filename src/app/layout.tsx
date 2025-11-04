@@ -1,6 +1,6 @@
-import "@thinkflagship/web-shorts/dist/styles.css";
 import FlagshipProvider from "@/components/FlagshipProvider";
 import Navbar from "@/components/Navbar";
+import "@thinkflagship/web-shorts/styles.css";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";

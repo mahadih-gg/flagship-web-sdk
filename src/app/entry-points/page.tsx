@@ -76,7 +76,7 @@ const EntryPointsPages = () => {
           <EntryPoint
             id={"#865522"}
             skeletonType={EntryPointType.BLOCK}
-            skeletonSize={EntryPointSize.OF_2}
+            skeletonSize={EntryPointSize.BLOCK_OF_2}
           />
         </div>
         <div>
